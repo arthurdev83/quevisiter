@@ -27,7 +27,7 @@ class RetrofitService() {
 
         return Retrofit.Builder()
             .client(getUnsafeOkHttpClient())
-            .baseUrl("http://localhost/PicShare/api/")
+            .baseUrl("http://api.quevisiter.fr")
             .addConverterFactory(GsonConverterFactory.create(gson))
 
             .build()

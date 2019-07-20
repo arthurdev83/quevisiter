@@ -65,6 +65,8 @@ class MainActivity : AppCompatActivity() {
 
                 if (toto != null) {
                     Log.d("response", "my response")
+
+                    rep_api.text = toto.toString()
                     // show snackbar
                     //utils.showSnackbar(containerProfil, R.string.localized_lang_dialog_report_account_report_notification)
                 }else {
@@ -78,6 +80,6 @@ class MainActivity : AppCompatActivity() {
 
             }
         })
-
+        //montext.text = toto[0].name
     }
 }
